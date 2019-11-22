@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+nav{
+position: relative;
+height: 400px;
+width: 100%;
+background-image: url(https://cdn.pixabay.com/photo/2019/11/08/18/16/london-4612015_960_720.jpg);
+background-size: cover;
+}
+ol{
+position: absolute;
+list-style-type:none;
+padding: 0;
+margin: 0;
+height: 50px;
+width: 50%;
+background: rgb(36, 29, 133);
+text-align: center;
+top: 25px;
+right: 25% ;
+border-radius:5px ;
+
+}
+li{
+    display: inline-block;
+    margin-top: 8px;
+    outline: none;
+}
+button{ 
+    background-color: salmon;
+    text-transform:capitalize ;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgba(48, 48, 48, 0.6);
+    border-style: solid;
+    border-width:1px ;
+    border-color: rgb(168, 43, 127);
+    border-bottom-color: peru;
+    border-radius:5px ;
+    cursor: pointer;
+}}
